@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Para Andrea - Un Regalo Especial</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #ffe6f0, #fff0f5);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+    .card {
+      background: #ffffff;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(255, 105, 180, 0.2);
+      max-width: 500px;
+      width: 100%;
+      padding: 30px;
+      text-align: center;
+    }
+    .badge {
+      display: inline-block;
+      background-color: #ffe6eb;
+      color: #e91e63;
+      font-weight: 600;
+      padding: 6px 16px;
+      border-radius: 20px;
+      font-size: 0.9rem;
+      margin-bottom: 15px;
+    }
+    h1 { color: #d81b60; font-size: 1.8rem; margin-bottom: 15px; }
+    .message { color: #555; font-size: 1.05rem; line-height: 1.6; margin-bottom: 25px; }
+    .btn {
+      display: inline-block;
+      background: linear-gradient(45deg, #ff4081, #ff80ab);
+      color: white;
+      text-decoration: none;
+      padding: 12px 30px;
+      border-radius: 25px;
+      font-weight: bold;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .btn:hover { transform: translateY(-2px); box-shadow: 0 5px 15px rgba(255, 64, 129, 0.4); }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="badge">Mensaje Especial ✨</div>
+    <h1>Para ti, Andrea 🌸</h1>
+    <p class="message">
+      Hay personas que hacen el mundo más bonito con solo estar en él, y tú eres una de ellas. Gracias por regalarme tu amistad, por tus sonrisas y por iluminar cada momento. Te quiero muchísimo. ❤️
+    </p>
+    <a href="index1.html" class="btn">VER TU REGALITO 🌻</a>
+  </div>
+</body>
+</html>
